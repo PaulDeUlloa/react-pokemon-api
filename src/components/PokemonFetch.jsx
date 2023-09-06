@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
+import PokemonEntry from "./PokemonEntry";
+
 
 const PokemonFetch = () => {
     const [pokemon, setPokemon] = useState();
@@ -24,8 +26,7 @@ const PokemonFetch = () => {
         <fieldset>
             <legend>PokemonFetch.jsx</legend>
             <p>
-                Using <code>fetch()</code> and
-                <code>.then() && .catch()</code> we'll fetch some Pokemon Data!
+                Let's fetch some Pokemon Data!
             </p>
 
             <button onClick={getPokemonFetch}>Fetch Pokemon Data</button>
