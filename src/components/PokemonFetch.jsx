@@ -1,4 +1,4 @@
-const PokemonFetch = (props) =>{
+const PokemonFetch = (props) => {
     return (
         <fieldset>
             <legend>PokemonFetch.jsx</legend>
