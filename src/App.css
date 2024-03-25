@@ -32,6 +32,9 @@ body {
   align-items: center;
 }
 
+#listStyling{
+  margin-top: 40px;
+}
 
 .App-header {
   background-color: #282c34;
