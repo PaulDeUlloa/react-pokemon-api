@@ -19,6 +19,17 @@ body {
 
 #pokemonFetchTextStyling{
   color: white;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pokemonFetchTitle{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
 }
 
 
